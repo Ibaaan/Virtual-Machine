@@ -1,0 +1,16 @@
+set 49 12
+set 50 3
+set 51 2
+set 52 0
+set 53 1
+difo 49 51 54
+difo 50 51 55
+add 55 54 56
+while== 56 52
+add 53 51 51
+difo 49 51 54
+difo 50 51 55
+add 55 54 56
+output 51
+end_of_while
+output 51
